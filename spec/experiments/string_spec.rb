@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe String do
-  describe "#<<" do
+  describe '#<<' do
     example "文字の追加" do
       s = "ABC"
       s << "D"
